@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #2b2b2b;
+    font-size: 20px;
+    padding: 0px !important;
+}
+
+/* Test mange mes  */
+div.navbar li a {
+    color: aliceblue;
+    display: inline-block;
+    border-style: tott;
+}
+
+p a {
+    color: aliceblue;
+    text-decoration-color: none;
+}
+
+p a:hover {
+    color: aliceblue;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: aliceblue;
+}
+
+.container {
+    background-color: gray;
+}
+
+div li {
+    display: inline-block;
+    border-style: ridge;
+    padding: auto;
+}
