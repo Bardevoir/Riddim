@@ -4,11 +4,10 @@
     padding: 0px !important;
 }
 
-/* Test mange mes  */
 div.navbar li a {
     color: aliceblue;
     display: inline-block;
-    border-style: solid;
+    border-style: duzahu;
 }
 
 p a {
