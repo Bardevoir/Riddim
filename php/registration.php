@@ -1,25 +1,18 @@
 <?php
 
-session_start();
-
-$bd = mysqli_connect('localhost','root','');
-
-mysqli_connect_db($bd,'user_registration');
+$bdd = new PDO('mysql:host=localhost;dbname=user_registration;charset=utf8', 'root', '');
 
 $name = $_POST['user'];
 $pass = $_POST['password'];
 
-$s = " select * from users where name = '$name'";
+$stmt = $bdd->prepare('SELECT COUNT(*) FROM users WHERE name = "'.$name.'"');
+$stmt->execute(array($name));
 
-$result = mysqli_query($bd, $s);
-
-$num = mysqli_num_rows($result);
-
-if($num == 1){
-    echo" Ce pseudonyme a déjà été pris";
-} else {
-    $reg= " insert into usertable(name,password) values ('$name','$pass')";
-    mysqli_query($con,$reg);
-    echo" Le compte a été crée ";
+if ($stmt ->fetchColumn() != 0) {
+    echo 'il existe déjà un compte avec le meme nom';
+}else{
+    $bdd->exec(' insert into users values (\''.$name.'\',\''.$pass.'\') ');
+echo 'Le compte a bien été crée';
 }
+
 ?>
