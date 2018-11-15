@@ -38,9 +38,6 @@
         <a class="nav-link" href="#" id ="soiree">Soirées</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id="covoit">Covoiturage</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="#" id="prev">Prévention</a>
       </li> <li class="nav-item">
         <a class="nav-link" href="#" id="actu">Actualités</a>
