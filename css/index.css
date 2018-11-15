@@ -46,3 +46,12 @@ ul.navbar-nav {
 #ulnav {
     width: 100%;
 }
+
+.Fcontact {
+    color: aliceblue;
+}
+
+a.Fcontact :hover {
+    color: aliceblue;
+    opacity: .5;
+}
