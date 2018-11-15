@@ -51,7 +51,7 @@ ul.navbar-nav {
     color: aliceblue;
 }
 
-a.Fcontact :hover {
+a.Fcontact:hover {
     color: aliceblue;
     opacity: .5;
 }
