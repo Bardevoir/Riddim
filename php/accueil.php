@@ -20,7 +20,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </head>
-<!-- zadopjzdopizj-->
+
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark primary-color">
@@ -36,9 +36,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" id ="soiree">Soirées</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="covoit">Covoiturage</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" id="prev">Prévention</a>
