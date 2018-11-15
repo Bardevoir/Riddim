@@ -15,7 +15,7 @@
                     </div>
                     <div class="form-group">
                         <label>Mot de passe</label>
-                        <input type="text" name="password" class="form-control" required>
+                        <input type="password" name="password" class="form-control" required>
                     </div>
                     <button type="submit">connexion</button>
                 </form>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="form-group">
                         <label>Mot de passe</label>
-                        <input type="text" name="password" class="form-control" required>
+                        <input type="password" name="password" class="form-control" required>
                     </div>
                     <button type="submit">Register</button>
                 </form>
