@@ -9,7 +9,7 @@
 <html>
 <head>
   <title>Login Form in PHP with Session</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
  <div id="login">
