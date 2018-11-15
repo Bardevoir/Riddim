@@ -65,3 +65,9 @@ a.Fcontact:hover {
     max-width: 100% !important;
     padding: 0% !important;
 }
+
+#deco {
+    background-color: crimson;
+    border-radius: 5%;
+    padding: 1%;
+}

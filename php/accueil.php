@@ -47,11 +47,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#" id="merchs">Merchs</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="connexion">Log In</a>
-      </li>
-      <li class="nav-item">
+      <li class="nav-item" id="deco">
         <a class="nav-item" href="logout.php">Déconnexion</a>
+      </li>
     </ul>
   </div>
 </nav>
