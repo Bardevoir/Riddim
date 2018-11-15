@@ -12,7 +12,7 @@ if ($stmt ->fetchColumn() != 0) {
     echo 'il existe déjà un compte avec le meme nom';
 }else{
     $bdd->exec(' insert into users values (\''.$name.'\',\''.$pass.'\') ');
-echo 'Le compte a bien été crée';
+    echo 'Le compte a bien été crée';
 }
 
 ?>
