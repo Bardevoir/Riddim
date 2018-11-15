@@ -10,6 +10,7 @@ $stmt = $bdd->prepare('SELECT COUNT(*) FROM users WHERE name = "'.$name.'" && pa
 $stmt->execute(array($name));
 
 if ($stmt ->fetchColumn() != 0) {
+    $_SESSION['username'] = $name;
     header('location:accueil.php');
 }else{
     header('location:login.php');

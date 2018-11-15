@@ -50,6 +50,8 @@
       <li class="nav-item">
         <a class="nav-link" href="#" id="connexion">Log In</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-item" href="logout.php">Déconnexion</a>
     </ul>
   </div>
 </nav>
@@ -60,15 +62,9 @@
     </div>
 </body>
 
-<<<<<<< HEAD
-<footer>
-    <p>&copy;HUARD, TARRAL, BOUDRAA, LIN <a style= "text-decoration: none" href="contact.html" id='contact'>CONTACT</a></p>
-
-=======
 <footer class="page-footer font-small blue">
     <div class="footer-copyright text-center py-3">© 2018 Copyright: HUARD, TARRAL, BOUDRAA, LIN <br>
         <a href="contact.php" style= "text-decoration: none" class="Fcontact"> Contact</a>
     </div>
->>>>>>> 4e150a0cd2a0a755bca770de56648a441136b5d7
 </footer>
 </html>
