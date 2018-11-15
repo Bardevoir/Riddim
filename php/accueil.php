@@ -27,7 +27,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav" id="ulnav">
       <li class="nav-item active">
         <a class="nav-link" href="#" id="accueil">Accueil<span class="sr-only">(current)</span></a>
       </li>
@@ -60,15 +60,9 @@
     </div>
 </body>
 
-<<<<<<< HEAD
-<footer>
-    <p>&copy;HUARD, TARRAL, BOUDRAA, LIN <a style= "text-decoration: none" href="contact.html" id='contact'>CONTACT</a></p>
-
-=======
 <footer class="page-footer font-small blue">
     <div class="footer-copyright text-center py-3">© 2018 Copyright: HUARD, TARRAL, BOUDRAA, LIN <br>
         <a href="contact.php" style= "text-decoration: none" class="Fcontact"> Contact</a>
     </div>
->>>>>>> 4e150a0cd2a0a755bca770de56648a441136b5d7
 </footer>
 </html>
