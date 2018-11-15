@@ -51,12 +51,12 @@
 
 
     <div class="container">
-         
+        <img src="../img/1BG.png" alt="" class="img-fluid">
     </div>
 </body>
 
 <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:HUARD, TARRAL, BOUDRAA, LIN <br>
+    <div class="footer-copyright text-center py-3">© 2018 Copyright: HUARD, TARRAL, BOUDRAA, LIN <br>
         <a href="contact.php" style= "text-decoration: none" class="Fcontact"> Contact</a>
     </div>
 </footer>
