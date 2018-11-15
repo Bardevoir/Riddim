@@ -33,10 +33,7 @@ footer {
 }
 
 div li {
-    border-style: double;
-    border-color: aqua;
     display: inline-block;
     height: 100%;
-    padding: ;
     
 }
