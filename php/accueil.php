@@ -15,6 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <!-- zadopjzdopizj-->
 <body>
@@ -26,28 +27,28 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav" id="ulnav">
-      <li class="nav-item active" id="saaa">
-        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" id="accueil">Accueil<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Soirées</a>
+        <a class="nav-link" href="#" id ="soiree">Soirées</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Covoiturage</a>
+        <a class="nav-link" href="#" id="covoit">Covoiturage</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Prévention</a>
+        <a class="nav-link" href="#" id="prev">Prévention</a>
       </li> <li class="nav-item">
-        <a class="nav-link" href="#">Actualités</a>
+        <a class="nav-link" href="#" id="actu">Actualités</a>
       </li> <li class="nav-item">
-        <a class="nav-link" href="#">Playlist</a>
+        <a class="nav-link" href="#" id="playlist">Playlist</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Merchs</a>
+        <a class="nav-link" href="#" id="merchs">Merchs</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Log In</a>
+        <a class="nav-link" href="#" id="connexion">Log In</a>
       </li>
     </ul>
   </div>
@@ -59,9 +60,15 @@
     </div>
 </body>
 
+<<<<<<< HEAD
+<footer>
+    <p>&copy;HUARD, TARRAL, BOUDRAA, LIN <a style= "text-decoration: none" href="contact.html" id='contact'>CONTACT</a></p>
+
+=======
 <footer class="page-footer font-small blue">
     <div class="footer-copyright text-center py-3">© 2018 Copyright: HUARD, TARRAL, BOUDRAA, LIN <br>
         <a href="contact.php" style= "text-decoration: none" class="Fcontact"> Contact</a>
     </div>
+>>>>>>> 4e150a0cd2a0a755bca770de56648a441136b5d7
 </footer>
 </html>
