@@ -53,3 +53,11 @@ footer {
     padding: 0px !important;
     text-align: center;
 }
+
+
+div li {
+    display: block;
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
