@@ -49,16 +49,7 @@
 </nav>
 
     <div class="container">
-      <script>
-        SC.initialize({
-        client_id: 'YOUR_CLIENT_ID'
-      });
-
-      var track_url = 'https://soundcloud.com/djfelx/lumberbot';
-      SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
-        console.log('oEmbed response: ', oEmbed);
-      });
-      </script>
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/514227969&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </div>
 </body>
 
