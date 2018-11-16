@@ -48,19 +48,17 @@
   </div>
 </nav>
 
-<script>
-SC.initialize({
-  client_id: 'YOUR_CLIENT_ID'
-});
-
-var track_url = 'https://soundcloud.com/djfelx/sets/chillax';
-SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
-  console.log('oEmbed response: ', oEmbed);
-});
-</script>
-
     <div class="container">
-        <img src="../img/1BG.png" alt="" class="img-fluid">
+      <script>
+        SC.initialize({
+        client_id: 'YOUR_CLIENT_ID'
+      });
+
+      var track_url = 'https://soundcloud.com/djfelx/lumberbot';
+      SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+        console.log('oEmbed response: ', oEmbed);
+      });
+      </script>
     </div>
 </body>
 
