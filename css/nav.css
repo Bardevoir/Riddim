@@ -61,3 +61,7 @@ div li {
     margin: auto;
     padding: auto;
 }
+
+.deco:hover {
+    background-color: darkblue;
+}
