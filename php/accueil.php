@@ -35,17 +35,17 @@
         <a class="nav-link" href="#" id="accueil">Accueil<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id ="soiree">Soirées</a>
+        <a class="nav-link" href="soirees.php" id ="soiree">Soirées</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id="prev">Prévention</a>
+        <a class="nav-link" href="prevention.php" id="prev">Prévention</a>
       </li> <li class="nav-item">
-        <a class="nav-link" href="#" id="actu">Actualités</a>
+        <a class="nav-link" href="actualites.php" id="actu">Actualités</a>
       </li> <li class="nav-item">
-        <a class="nav-link" href="#" id="playlist">Playlist</a>
+        <a class="nav-link" href="playlist.php" id="playlist">Playlist</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" id="merchs">Merchs</a>
+        <a class="nav-link" href="merchs.php" id="merchs">Merchs</a>
       </li>
       <li class="nav-item" id="deco">
         <a class="nav-link deco" href="logout.php">Déconnexion</a>
