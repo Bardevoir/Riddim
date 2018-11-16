@@ -49,7 +49,7 @@
 
 
     <div class="container">
-        <img src="../img/.png" alt="" class="img-fluid">
+        <img src="../img/1BG.png" alt="" class="img-fluid">
     </div>
 </body>
 
