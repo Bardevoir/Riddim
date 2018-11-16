@@ -52,14 +52,6 @@ a.Fcontact:hover {
     color: aliceblue;
     opacity: .5;
 }
-/*
-.container {
-    background-image: url(../img/1BG.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100%;
-}
-*/
 
 .container {
     max-width: 100% !important;
