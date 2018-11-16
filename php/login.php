@@ -13,7 +13,7 @@
                         <input type="text" name="user" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label>Mot de passe</label>
+                        <label>Mot de passse</label>
                         <input type="password" name="password" class="form-control" required>
                     </div>
                     <button type="submit">connexion</button>
