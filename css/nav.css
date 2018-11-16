@@ -1,0 +1,55 @@
+#navigation {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#deco {
+    background-color: crimson;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.container {
+    max-width: 100% !important;
+    padding: 0% !important;
+}
+
+.Fcontact {
+    color: aliceblue;
+}
+
+a.Fcontact:hover {
+    color: aliceblue;
+    opacity: .5;
+}
+
+ul.navbar-nav {
+    text-align: center;
+
+}
+#ulnav {
+    width: 100%;
+}
+
+p a {
+    color: aliceblue;
+    text-decoration-color: none;
+}
+
+p a:hover {
+    color: aliceblue;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: #2b2b2b;
+    font-size: 20px;
+    padding: 0px !important;
+    text-align: center;
+}

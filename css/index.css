@@ -4,14 +4,11 @@
     padding: 0px !important;
     text-align: center;
 }
-/* */
+
 div li a {
     color: aliceblue;
     display: inline-block;
     padding: auto;
-    
-
-
 }
 
 p a {
@@ -52,14 +49,6 @@ a.Fcontact:hover {
     color: aliceblue;
     opacity: .5;
 }
-/*
-.container {
-    background-image: url(../img/1BG.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100%;
-}
-*/
 
 .container {
     max-width: 100% !important;
@@ -70,4 +59,17 @@ a.Fcontact:hover {
     background-color: crimson;
     border-radius: 5%;
     padding: 1%;
+}
+
+.decosombre {
+    background-color: darkred;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+#navigation {
+        z-index: 10000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
 }
