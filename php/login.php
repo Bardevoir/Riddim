@@ -2,7 +2,6 @@
     <head>
         <title>Page login et register</title>
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-
     </head>
     <body>
         <div class="container">
