@@ -48,7 +48,7 @@
         <a class="nav-link" href="#" id="merchs">Merchs</a>
       </li>
       <li class="nav-item" id="deco">
-        <a class="nav-item" href="logout.php">Déconnexion</a>
+        <a class="nav-link" href="logout.php">Déconnexion</a>
       </li>
     </ul>
   </div>
