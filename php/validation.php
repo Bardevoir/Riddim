@@ -1,19 +1,20 @@
 <?php
-session_start();
 
-$bdd = new PDO('mysql:host=localhost;dbname=user_registration;charset=utf8', 'root', '');
+    session_start();
 
-$name = $_POST['user'];
-$pass = $_POST['password'];
+    $bdd = new PDO('mysql:host=localhost;dbname=user_registration;charset=utf8', 'root', '');
 
-$stmt = $bdd->prepare('SELECT COUNT(*) FROM users WHERE name = "'.$name.'" && password = "'.$pass.'"');
-$stmt->execute(array($name));
+    $name = $_POST['user'];
+    $pass = $_POST['password'];
 
-if ($stmt ->fetchColumn() != 0) {
-    $_SESSION['username'] = $name;
-    header('location:accueil.php');
-}else{
-    header('location:login.php');
-}
+    $stmt = $bdd->prepare('SELECT COUNT(*) FROM users WHERE name = "'.$name.'" && password = "'.$pass.'"');
+    $stmt->execute(array($name));
+
+    if ($stmt ->fetchColumn() != 0) {
+        $_SESSION['username'] = $name;
+        header('location:accueil.php');
+    }else{
+        header('location:login.php');
+    }
 
 ?>
