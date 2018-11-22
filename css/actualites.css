@@ -3,15 +3,37 @@ article {
     padding: .3rem;
     background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
+    width: 50%;
 };
 
-section , h1 {
+section, h1 {
     margin: .5rem;
     padding: .3rem;
     font-size: 1.2rem;
+
 }
 
-h2 , p {
+h2 ,p {
     margin: .2rem;
     font-size: 1rem;
+    color: aliceblue;
+}
+section {
+    background-color: rgb(58, 54, 55);
+}
+
+h2 {
+    color: aliceblue !important;
+}
+
+aside {
+    background-color: rgb(85, 80, 80);
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    width: 40%;
+    clear: both;
 }

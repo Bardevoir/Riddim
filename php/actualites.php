@@ -55,19 +55,24 @@
         <h1>Actualités</h1>
           <section>
             <h2>Titre d'article...</h2>
+            <p>Text...</p>
           </section>
           <section>
             <h2>Titre d'article...</h2>
+            <p>Text...</p>
           </section>
           <section>
             <h2>Titre d'article...</h2>
+            <p>Text...</p>
           </section>
           <section>
             <h2>Titre d'article...</h2>
+            <p>Text...</p>
           </section>
         </article>
         <aside>
         <h2>Salut</h2>
+        <p>Text...</p>
         </aside>
     </div>
 </body>
