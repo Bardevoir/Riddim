@@ -6,6 +6,7 @@
     <title>Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/nav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/actualites.css" />
     <script src="../js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>   
@@ -50,6 +51,24 @@
 
     <div class="container">
         <img src="../img/2FOOTER.png" alt="" class="img-fluid">
+        <article>
+        <h1>Actualités</h1>
+          <section>
+            <h2>Titre d'article...</h2>
+          </section>
+          <section>
+            <h2>Titre d'article...</h2>
+          </section>
+          <section>
+            <h2>Titre d'article...</h2>
+          </section>
+          <section>
+            <h2>Titre d'article...</h2>
+          </section>
+        </article>
+        <aside>
+        <h2>Salut</h2>
+        </aside>
     </div>
 </body>
 
