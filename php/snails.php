@@ -6,7 +6,6 @@
     <title>Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/nav.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/actualites.css" />
     <script src="../js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>   
@@ -51,28 +50,27 @@
 
     <div class="container">
         <img src="../img/2FOOTER.png" alt="" class="img-fluid">
-        <article>
-        <h1>Actualités</h1>
-          <section>
-            <a href="snails.php"><h2>Snails lance sa série de comic book : “The Shell”</h2></a>
-          </section>
-          <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
-          </section>
-          <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
-          </section>
-          <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
-          </section>
-        </article>
-        <aside>
-        <h2>Salut</h2>
-        <p>Text...</p>
-        </aside>
+        <p>Snails lance sa série de comic book : “The Shell”
+
+            NOV 22, 2018
+        </p>
+        <img src="../img/snails.jpg" alt="">
+        <p>Si vous avez déjà senti que les sons et visuels de snails faisaient partie d’une plus grande vision vous aviez raison. Le pionnier du “vomitstep” a révélé que chaque facette de sa vision création est là pour raconter une plus vaste histoire, une que les fans découvriront mieux a travers une nouvelle série de comic books prénomée “The shell”.
+
+Comme a pu l’être vu dans les 11 premières pages de “The Sluggernaut”, qui marque le premier chapitre de “The Shell”, la série suit les aventures de Soldier Slugz dans la protection de Slugz city contre la menace. The Snails (de son vrai nom Fédérik Durand) a co-écrit l’histoire aux cotés de Maria Filipone, et de l’artiste français Dr. Fanx.
+</p>
+        <img src="../img/artwork.jpg" alt="">
+        <p>Selon Frédérik “Snails” Durand :
+
+"My music and shows have always been attached to a story. Frogz, King Slugz, Sluggtopia and The Shell are all part of a bigger vision - one that hasn't been fully explained ... until now. Super proud to announce that The Sluggernaut comic book will be released on November 26th. Check out the first 11 pages and pre-order your physical copy for the full story!"
+
+“The Sluggernaut” complet arrive par le biais de Slugz Comics le 26 Novembre 2018. En attendant, vous pouvez avoir un avant goût de ce qui vous attend avec les 11 premières pages du premier chapitre de “The Shell” qui en comprendra 26, et le précommander ici :
+
+https://snails.kt8merch.com/products/pre-order-snails-the-sluggernaut-the-shell-comic-book
+
+
+Lien de l’article : https://edm.com/news/snails-launch-comic-book-series-shell
+</p>
     </div>
 </body>
 
