@@ -50,8 +50,11 @@
 
 
     <div class="container">
+
         <img src="../img/2FOOTER.png" alt="" class="img-fluid">
-        <article>
+        <div class="row">
+
+        <article class="col-xs-6 col-sm-6 col-lg-6 col-md-6">
         <h1>Actualités</h1>
           <section>
             <a href="snails.php"><h2>Snails lance sa série de comic book : “The Shell”</h2></a>
@@ -69,10 +72,14 @@
             <p>Text...</p>
           </section>
         </article>
-        <aside>
+
+        <aside class="col-xs-12 col-sm-12 col-lg-5 col-md-5">
         <h2>Salut</h2>
         <p>Text...</p>
         </aside>
+
+        </div>
+        
     </div>
 </body>
 
