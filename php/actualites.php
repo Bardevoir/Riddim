@@ -68,8 +68,8 @@
         </article>
 
         <aside class="col-xs-12 col-sm-12 col-lg-5 col-md-5">
-        <h2>Salut</h2>
-        <p>Text...</p>
+        <h2>À venir ...</h2>
+        <p></p>
         </aside>
 
         </div>
