@@ -60,16 +60,10 @@
             <a href="snails.php"><h2>Snails lance sa série de comic book : “The Shell”</h2></a>
           </section>
           <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
+            <a href="#"><h2>Rezz affirme que “Rezz rocks” deviendra un rendez-vous annuel</h2></a>
           </section>
           <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
-          </section>
-          <section>
-            <h2>Titre d'article...</h2>
-            <p>Text...</p>
+            <a href="#"><h2>Des attaques de copyright frauduleuses touchent une dizaine d’artiste de bass music sur soundcloud</h2></a>
           </section>
         </article>
 
