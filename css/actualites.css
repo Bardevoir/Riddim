@@ -6,6 +6,8 @@ article {
     font: 1rem 'Fira Sans', sans-serif;
     width: 100%;
     max-width: 100%;
+    position: relative;
+    top: -700px;
 };
 
 section, h1 {
@@ -39,5 +41,7 @@ aside {
     color: #29627e;
     width: 100%;
     /*clear: both;*/
+    position: relative;
+    top: -700px;
     
 }
