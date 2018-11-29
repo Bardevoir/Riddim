@@ -51,7 +51,7 @@
 
     <div class="container">
 
-        <img src="../img/2FOOTER.png" alt="" class="img-fluid">
+        <img src="../img/Actualites.png" alt="" class="img-fluid">
         <div class="row">
 
         <article class="col-xs-6 col-sm-6 col-lg-6 col-md-6">

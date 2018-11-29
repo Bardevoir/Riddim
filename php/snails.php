@@ -49,17 +49,18 @@
 
 
     <div class="container">
-        <img src="../img/2FOOTER.png" alt="" class="img-fluid">
-        <p>Snails lance sa série de comic book : “The Shell”
-
-            NOV 22, 2018
-        </p>
-        <img src="../img/snails.jpg" alt="">
+      <div class="row">
+        <img src="../img/snails.jpg" alt="" id="snails" class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+        <h2 class="Titre">Snails lance sa série de comic book : “The Shell”</h2><br>
+        <p class="date">NOV 22, 2018</p>
+        <div class="para1">
         <p>Si vous avez déjà senti que les sons et visuels de snails faisaient partie d’une plus grande vision vous aviez raison. Le pionnier du “vomitstep” a révélé que chaque facette de sa vision création est là pour raconter une plus vaste histoire, une que les fans découvriront mieux a travers une nouvelle série de comic books prénomée “The shell”.
 
 Comme a pu l’être vu dans les 11 premières pages de “The Sluggernaut”, qui marque le premier chapitre de “The Shell”, la série suit les aventures de Soldier Slugz dans la protection de Slugz city contre la menace. The Snails (de son vrai nom Fédérik Durand) a co-écrit l’histoire aux cotés de Maria Filipone, et de l’artiste français Dr. Fanx.
 </p>
-        <img src="../img/artwork.jpg" alt="">
+        </div>
+        <img src="../img/artwork.jpg" alt="" class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+        <div class="para2">
         <p>Selon Frédérik “Snails” Durand :
 
 "My music and shows have always been attached to a story. Frogz, King Slugz, Sluggtopia and The Shell are all part of a bigger vision - one that hasn't been fully explained ... until now. Super proud to announce that The Sluggernaut comic book will be released on November 26th. Check out the first 11 pages and pre-order your physical copy for the full story!"
@@ -70,7 +71,11 @@ https://snails.kt8merch.com/products/pre-order-snails-the-sluggernaut-the-shell-
 
 
 Lien de l’article : https://edm.com/news/snails-launch-comic-book-series-shell
-</p>
+ </p>
+        </div>
+      </div>
+        <img src="../img/2FOOTER.png" alt="" class="img-fluid">
+        
     </div>
 </body>
 
