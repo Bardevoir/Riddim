@@ -4,7 +4,8 @@ article {
     padding: .3rem;
     background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
-    /*width: 50%;*/
+    width: 100%;
+    max-width: 100%;
 };
 
 section, h1 {
@@ -36,7 +37,7 @@ aside {
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
-    /*width: 40%;*/
+    width: 100%;
     /*clear: both;*/
     
 }
