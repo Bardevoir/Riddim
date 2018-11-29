@@ -72,10 +72,10 @@ Comme a pu l’être vu dans les 11 premières pages de “The Sluggernaut”, q
 
 “The Sluggernaut” complet arrive par le biais de Slugz Comics le 26 Novembre 2018. En attendant, vous pouvez avoir un avant goût de ce qui vous attend avec les 11 premières pages du premier chapitre de “The Shell” qui en comprendra 26, et le précommander ici :
 
-https://snails.kt8merch.com/products/pre-order-snails-the-sluggernaut-the-shell-comic-book
+<a href="https://snails.kt8merch.com/products/pre-order-snails-the-sluggernaut-the-shell-comic-book">Ici</a>
 
 
-Lien de l’article : https://edm.com/news/snails-launch-comic-book-series-shell
+Lien de l’article : <a href="https://edm.com/news/snails-launch-comic-book-series-shell">Ici</a>
  </p>
         </div>
       </div>
