@@ -1,0 +1,68 @@
+// Styling for the navbar
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  @include heading-font;
+  background-color: linear-gradient(rgba(color(secondaryC), 1), color(scondaryC), .1);
+  .navbar-brand {
+    color: color(whiteC);
+  }
+  .navbar-nav {
+    margin-top: 1rem;
+    letter-spacing: 0.0625rem;
+    li.nav-item {
+      a.nav-link {
+        color: color(accentC);
+        &:hover {
+          color: color(primaryC);
+        }
+        &:active,
+        &:focus {
+          color: color(whiteC);
+        }
+        &.active {
+          color: color(primaryC);
+        }
+      }
+    }
+  }
+  .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+  }
+}
+@media(min-width:992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: font-size 0.3s;
+      -moz-transition: font-size 0.3s;
+      transition: font-size 0.3s;
+    }
+    .navbar-nav {
+      margin-top: 0;
+    }
+    .navbar-nav > li.nav-item > a.nav-link.active {
+      color: color(primaryC);
+      background: color(accentC);
+      &:active,
+      &:focus,
+      &:hover {
+        color: color(whiteC);
+        background: color(primaryC);
+      }
+    }
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    .navbar-brand {
+      font-size: 1.5em;
+    }
+  }
+}

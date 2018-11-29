@@ -1,0 +1,68 @@
+// Bootstrap overrides for this template
+a {
+  color: color(whiteC);
+  &:focus,
+  &:hover,
+  &:active {
+    color: darken(color(whiteC), 30%);
+  }
+}
+
+nav div.nav-tabs {
+  background-color: lighten(color(primaryC), 10%);
+  a {
+    color: color(secondaryC) !important;
+  }
+}
+
+.btn {
+  border-width: 2px;
+}
+
+.bg-primary {
+  background-color: color(primaryC);
+}
+
+.bg-secondaryy {
+  background-color: color(secondaryC);
+}
+
+.bg-white {
+  background-color: color(transparentC);
+}
+
+.text-primary {
+  color: color(primaryC);
+}
+
+.text-secondaryy {
+  color: color(secondaryC);
+}
+
+.btn-primary {
+  background-color: color(primaryC);
+    border-color: color(primaryC);
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken(color(primaryC), 10%);
+    border-color: darken(color(primaryC), 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: color(secondaryC);
+  border-color: color(secondaryC);
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: lighten(color(secondaryC), 10%);
+    border-color: lighten(color(secondaryC), 10%);
+  }
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
+

@@ -1,0 +1,92 @@
+<!--<?php
+  session_start();
+  if(!isset($_SESSION['username'])){
+    header('location:login.php');
+  }
+?>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Durand Lyam">
+
+    <title>Accueil</title>
+
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+  </head>
+
+  <body>
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondaryy fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Accueil</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="content/projects.html">Projets</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="content/about.html">Compétences</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="content/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!--<nav class="navbar navbar-expand-lg navbar-dark primary-color" id="navigation">
+    <a class="navbar-brand" href="#"><img  class="logo" src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="ulnav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="accueil">Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="soirees.php" id ="soiree">Soirées</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="prevention.php" id="prev">Prévention</a>
+        </li> <li class="nav-item">
+          <a class="nav-link" href="actualites.php" id="actu">Actualités</a>
+        </li> <li class="nav-item">
+          <a class="nav-link" href="playlist.php" id="playlist">Playlist</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="merchs.php" id="merchs">Merchs</a>
+        </li>
+        <li class="nav-item" id="deco">
+          <a class="nav-link deco" href="logout.php">Déconnexion</a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
+
+
+      <div class="container">
+          <img src="img/1BG.png" alt="" class="img-fluid">
+      </div>
+
+
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: HUARD, TARRAL, BOUDRAA, LIN <br>
+            <a href="contact.php" style= "text-decoration: none" class="Fcontact"> Contact</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="lib/jquery-easing/jquery.easing.min.js"></script>
+    <script src="lib/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="dist/js/app.js"></script>
+
+  </body>
+
+</html>
